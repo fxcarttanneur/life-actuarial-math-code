@@ -9,4 +9,5 @@ cd "$(dirname "$0")"
 extra=()
 if [ "${1:-}" = "--offline" ]; then extra=(--pyodide "${2:?pyodide tarball path or URL}"); fi
 .venv/bin/jupyter lite build --contents content --output-dir dist ${extra[@]+"${extra[@]}"}
+cp landing.html dist/index.html   # phones -> single-notebook view, larger screens -> JupyterLab
 echo "Built ./dist — serve it with:  python3 -m http.server -d dist 8000"
