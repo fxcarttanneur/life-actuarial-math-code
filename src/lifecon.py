@@ -5,7 +5,7 @@ convention:
     death_timing="end"  claims paid at the end of the year of death (international)
     death_timing="mid"  claims paid in the middle of the year (k + 1/2 convention)
 
-Commutation numbers (Chapter 3 and 4 notation):
+Commutation functions (Chapter 3 and 4 notation):
     D_x = v^x l_x,          N_x = sum_{k>=0} D_{x+k},   S_x = sum_{k>=0} N_{x+k}
     C_x = v^{x+1} d_x  (end)  or  v^{x+1/2} d_x  (mid)
     M_x = sum_{k>=0} C_{x+k},   R_x = sum_{k>=0} M_{x+k}
