@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Life Actuarial Mathematics — Notebooks</title>
+<!-- JupyterLite reads this block from the root page; keep it (settings live in jupyter-lite.json). -->
+<script id="jupyter-config-data" type="application/json" data-jupyter-lite-root=".">
+  {}
+</script>
+<script>
+  // Phones and small tablets open the single-notebook view on the start page;
+  // larger screens open the full JupyterLab workspace.
+  (function () {
+    var small = Math.min(screen.width, screen.height) < 820 ||
+                window.matchMedia("(max-width: 820px)").matches;
+    var target = small
+      ? "./notebooks/index.html?path=00_Start_Here.ipynb"
+      : "./lab/index.html?path=00_Start_Here.ipynb";
+    window.location.replace(target);
+  })();
+</script>
+<style>
+  body { font-family: system-ui, sans-serif; margin: 2rem 1rem; line-height: 1.5; color: #1a2a40; background: #fff; }
+  a { color: #1a5fb4; }
+</style>
+</head>
+<body>
+  <p>Opening the notebooks…</p>
+  <p>If nothing happens, open the <a href="./notebooks/index.html?path=00_Start_Here.ipynb">phone view</a>
+     or the <a href="./lab/index.html?path=00_Start_Here.ipynb">full workspace</a>.</p>
+</body>
+</html>
