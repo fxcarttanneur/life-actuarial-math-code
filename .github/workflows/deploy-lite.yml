@@ -25,6 +25,7 @@ jobs:
       - run: pip install -r lite/requirements.txt
       - run: python lite/make_notebooks.py
       - run: jupyter lite build --contents lite/content --output-dir lite/dist
+      - run: cp lite/landing.html lite/dist/index.html
       - run: touch lite/dist/.nojekyll
       - uses: actions/upload-pages-artifact@v3
         with:
