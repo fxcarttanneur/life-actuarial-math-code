@@ -55,18 +55,21 @@ Companion notebooks for {BOOK} by F.-X. Cart-Tanneur.
 
 Python runs **inside your browser** (Pyodide/WebAssembly): nothing to install, no account.
 The first cell of a notebook takes a few seconds while Python starts.
-Run cells with **Shift + Enter**. Your edits are saved in your browser only.
+Run a cell with **Shift + Enter**, or with the ▶ button in the toolbar on a phone or tablet.
+Your edits are saved in your browser only.
 
 | Notebook | Book chapters | Module |
 |---|---|---|
-| 01_Financial_Mathematics | 1 | `finmath.py` |
-| 02_Mortality | 2 | `mortality.py` |
-| 03_Annuities_and_Insurances | 3–4 | `lifecon.py` |
-| 04_Multiple_Lives | 5–6 | `multilife.py` |
-| 05_Pricing | 7 | `pricing.py` |
-| 06_Reserves_and_Alterations | 8–9 | `reserves.py` |
-| 07_Toolbox | 10 | `toolbox.py` |
-| 08_Run_Tests | all | the full test suite |
+| [01 Financial Mathematics](01_Financial_Mathematics.ipynb) | 1 | `finmath.py` |
+| [02 Mortality](02_Mortality.ipynb) | 2 | `mortality.py` |
+| [03 Annuities and Insurances](03_Annuities_and_Insurances.ipynb) | 3–4 | `lifecon.py` |
+| [04 Multiple Lives](04_Multiple_Lives.ipynb) | 5–6 | `multilife.py` |
+| [05 Pricing](05_Pricing.ipynb) | 7 | `pricing.py` |
+| [06 Reserves and Alterations](06_Reserves_and_Alterations.ipynb) | 8–9 | `reserves.py` |
+| [07 Toolbox](07_Toolbox.ipynb) | 10 | `toolbox.py` |
+| [08 Run Tests](08_Run_Tests.ipynb) | all | the full test suite |
+
+Tap a notebook name to open it. On a phone, **Run → Run All Cells** runs a whole notebook at once.
 
 Every notebook starts with the same setup cell, which makes the book's modules in `src/` importable.
 """),
