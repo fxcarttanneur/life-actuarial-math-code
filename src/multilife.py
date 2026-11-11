@@ -26,7 +26,7 @@ class JointLife:
     def _horizon(self, x: int, y: int) -> int:
         return max(self.tx.omega - x, self.ty.omega - y) + 1
 
-    # ----- commutation numbers for the joint status ----------------------
+    # ----- commutation functions for the joint status ----------------------
     def D(self, x: int, y: int) -> float:
         """D_xy = v^{(x+y)/2} l_x l_y."""
         return self.v ** ((x + y) / 2) * self.tx.l(x) * self.ty.l(y)
