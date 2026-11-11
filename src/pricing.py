@@ -58,7 +58,7 @@ def deferred_annuity_premium(basis: Basis, x: int, m: int, benefit: float,
     premiums payable for m years.
 
     Without counter-insurance:  Π ä_{x:m} (1 - alpha) = B m|ä_x
-    With return of premiums on death before x+m (contre-assurance):
+    With return of premiums on death before x+m (counter-insurance):
         Π (1 - alpha) ä_{x:m} = B m|ä_x + Π (IA)^1_{x:m}
     """
     a_m = basis.annuity_due(x, m)
